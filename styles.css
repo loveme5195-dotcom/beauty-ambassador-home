@@ -6,6 +6,7 @@
 /* Typography refinement: keep the editorial title elegant and readable. */
 .display-mood{font-size:clamp(3rem,4.8vw,5.25rem);line-height:1.04;max-width:8.5em;text-wrap:balance}
 .mood-copy>p:not(.eyebrow):not(.chapter-no){font-size:1.02rem;line-height:2.05}
+.editorial-strip .offset-card{transform:none}
 @media(max-width:1199.98px){.display-mood{font-size:clamp(3rem,5.3vw,4.75rem)}}
 @media(max-width:575.98px){.display-mood{font-size:clamp(2.75rem,13vw,4rem);line-height:1.08;max-width:none}.mood-copy>p:not(.eyebrow):not(.chapter-no){font-size:.98rem;line-height:2}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
